@@ -1,0 +1,202 @@
+
+>>
+>> "C:\Program Files (x86)\ffmpegyag\bin\ffmpeg.exe" -i "C:\Users\naser\OneDrive\Escritorio\miweb2.0\Media\animacion-tierra.mov" -strict experimental -f webm -map_chapters -1 -map 0:0 -sn -an -b:v:0 20000k -mbd:v:0 rd -mbcmp:v:0 rd -cmp:v:0 rd -precmp:v:0 rd -subcmp:v:0 rd -trellis:v:0 1 -y "C:\Users\naser\OneDrive\Escritorio\miweb2.0\Media\animacion-tierra.webm"
+>>
+
+ffmpeg version 2.5.2 Copyright (c) 2000-2014 the FFmpeg developers
+  built on Dec 30 2014 17:18:09 with gcc 4.9.2 (GCC)
+  configuration: --disable-static --enable-shared --enable-gpl --enable-version3 --disable-w32threads --enable-avisynth --enable-bzlib --enable-fontconfig --enable-frei0r --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libfreetype --enable-libgme --enable-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-lzma --enable-decklink --enable-zlib
+  libavutil      54. 15.100 / 54. 15.100
+  libavcodec     56. 13.100 / 56. 13.100
+  libavformat    56. 15.102 / 56. 15.102
+  libavdevice    56.  3.100 / 56.  3.100
+  libavfilter     5.  2.103 /  5.  2.103
+  libswscale      3.  1.101 /  3.  1.101
+  libswresample   1.  1.100 /  1.  1.100
+  libpostproc    53.  3.100 / 53.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\naser\OneDrive\Escritorio\miweb2.0\Media\animacion-tierra.mov':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    creation_time   : 2022-10-15 22:16:22
+    xmp             : <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                    : <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.1-c000 79.b0f8be9, 2021/12/08-19:11:22        ">
+                    :  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                    :   <rdf:Description rdf:about=""
+                    :     xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+                    :     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+                    :     xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+                    :     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+                    :     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+                    :     xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    :    xmp:ModifyDate="2022-10-15T19:17:27-03:00"
+                    :    xmp:CreatorTool="Adobe Photoshop 23.2 (20220118.orig.521 930aa48)  (Windows)"
+                    :    xmp:MetadataDate="2022-10-15T19:17:27-03:00"
+                    :    xmpDM:startTimeScale="2997"
+                    :    xmpDM:startTimeSampleSize="100"
+                    :    xmpDM:videoFrameRate="29.970030"
+                    :    xmpDM:videoFieldOrder="Progressive"
+                    :    xmpDM:videoPixelAspectRatio="1/1"
+                    :    xmpDM:audioSampleRate="48000"
+                    :    xmpDM:audioSampleType="16Int"
+                    :    xmpDM:audioChannelType="Stereo"
+                    :    xmpMM:InstanceID="xmp.iid:956d6949-58a7-be40-b8a2-ae56e644a1e8"
+                    :    xmpMM:DocumentID="xmp.did:386ab406-4c4b-3346-933d-0a113a5a5c5d"
+                    :    xmpMM:OriginalDocumentID="xmp.did:386ab406-4c4b-3346-933d-0a113a5a5c5d"
+                    :    dc:format="QuickTime">
+                    :    <xmpDM:duration
+                    :     xmpDM:value="250250"
+                    :     xmpDM:scale="1/30000"/>
+                    :    <xmpDM:altTimecode
+                    :     xmpDM:timeValue="00;00;00;00"
+                    :     xmpDM:timeFormat="2997DropTimecode"/>
+                    :    <xmpDM:videoFrameSize
+                    :     stDim:w="2560"
+                    :     stDim:h="1440"
+                    :     stDim:unit="pixel"/>
+                    :    <xmpDM:startTimecode
+                    :     xmpDM:timeFormat="2997DropTimecode"
+                    :     xmpDM:timeValue="00;00;00;00"/>
+                    :    <xmpMM:History>
+                    :     <rdf:Seq>
+                    :      <rdf:li
+                    :       stEvt:action="saved"
+                    :       stEvt:instanceID="xmp.iid:956d6949-58a7-be40-b8a2-ae56e644a1e8"
+                    :       stEvt:when="2022-10-15T19:17:27-03:00"
+                    :       stEvt:softwareAgent="Adobe Photoshop 23.2 (20220118.orig.521 930aa48)  (Windows)"
+                    :       stEvt:changed="/"/>
+                    :     </rdf:Seq>
+                    :    </xmpMM:History>
+                    :   </rdf:Description>
+                    :  </rdf:RDF>
+                    : </x:xmpmeta>
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                            
+                    : <?xpacket end="w"?>
+  Duration: 00:00:08.34, start: 0.000000, bitrate: 116218 kb/s
+    Stream #0:0(eng): Video: prores (apcn / 0x6E637061), yuv422p10le(bt709), 2560x1440, 113676 kb/s, SAR 2560:2560 DAR 16:9, 29.97 fps, 29.97 tbr, 30k tbn, 30k tbc (default)
+    Metadata:
+      creation_time   : 2022-10-15 22:16:22
+      handler_name    : Apple Alias Data Handler
+      encoder         : Apple ProRes 422
+      timecode        : 00:00:00;00
+    Stream #0:1(eng): Audio: pcm_s16le (sowt / 0x74776F73), 48000 Hz, stereo, s16, 1536 kb/s (default)
+    Metadata:
+      creation_time   : 2022-10-15 22:16:22
+      handler_name    : Apple Alias Data Handler
+      timecode        : 00:00:00;00
+    Stream #0:2(eng): Data: none (tmcd / 0x64636D74), 0 kb/s (default)
+    Metadata:
+      creation_time   : 2022-10-15 22:16:22
+      handler_name    : Apple Alias Data Handler
+      timecode        : 00:00:00;00
+[libvpx @ 02813e60] v1.3.0
+Output #0, webm, to 'C:\Users\naser\OneDrive\Escritorio\miweb2.0\Media\animacion-tierra.webm':
+  Metadata:
+    major_brand     : qt  
+    minor_version   : 537199360
+    compatible_brands: qt  
+    xmp             : <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+                    : <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.1-c000 79.b0f8be9, 2021/12/08-19:11:22        ">
+                    :  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                    :   <rdf:Description rdf:about=""
+                    :     xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+                    :     xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/"
+                    :     xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+                    :     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+                    :     xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+                    :     xmlns:dc="http://purl.org/dc/elements/1.1/"
+                    :    xmp:ModifyDate="2022-10-15T19:17:27-03:00"
+                    :    xmp:CreatorTool="Adobe Photoshop 23.2 (20220118.orig.521 930aa48)  (Windows)"
+                    :    xmp:MetadataDate="2022-10-15T19:17:27-03:00"
+                    :    xmpDM:startTimeScale="2997"
+                    :    xmpDM:startTimeSampleSize="100"
+                    :    xmpDM:videoFrameRate="29.970030"
+                    :    xmpDM:videoFieldOrder="Progressive"
+                    :    xmpDM:videoPixelAspectRatio="1/1"
+                    :    xmpDM:audioSampleRate="48000"
+                    :    xmpDM:audioSampleType="16Int"
+                    :    xmpDM:audioChannelType="Stereo"
+                    :    xmpMM:InstanceID="xmp.iid:956d6949-58a7-be40-b8a2-ae56e644a1e8"
+                    :    xmpMM:DocumentID="xmp.did:386ab406-4c4b-3346-933d-0a113a5a5c5d"
+                    :    xmpMM:OriginalDocumentID="xmp.did:386ab406-4c4b-3346-933d-0a113a5a5c5d"
+                    :    dc:format="QuickTime">
+                    :    <xmpDM:duration
+                    :     xmpDM:value="250250"
+                    :     xmpDM:scale="1/30000"/>
+                    :    <xmpDM:altTimecode
+                    :     xmpDM:timeValue="00;00;00;00"
+                    :     xmpDM:timeFormat="2997DropTimecode"/>
+                    :    <xmpDM:videoFrameSize
+                    :     stDim:w="2560"
+                    :     stDim:h="1440"
+                    :     stDim:unit="pixel"/>
+                    :    <xmpDM:startTimecode
+                    :     xmpDM:timeFormat="2997DropTimecode"
+                    :     xmpDM:timeValue="00;00;00;00"/>
+                    :    <xmpMM:History>
+                    :     <rdf:Seq>
+                    :      <rdf:li
+                    :       stEvt:action="saved"
+                    :       stEvt:instanceID="xmp.iid:956d6949-58a7-be40-b8a2-ae56e644a1e8"
+                    :       stEvt:when="2022-10-15T19:17:27-03:00"
+                    :       stEvt:softwareAgent="Adobe Photoshop 23.2 (20220118.orig.521 930aa48)  (Windows)"
+                    :       stEvt:changed="/"/>
+                    :     </rdf:Seq>
+                    :    </xmpMM:History>
+                    :   </rdf:Description>
+                    :  </rdf:RDF>
+                    : </x:xmpmeta>
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                                                                                                     
+                    :                            
+                    : <?xpacket end="w"?>
+    encoder         : Lavf56.15.102
+    Stream #0:0(eng): Video: vp8 (libvpx), yuv420p, 2560x1440 [SAR 1:1 DAR 16:9], q=-1--1, 20000 kb/s, 29.97 fps, 1k tbn, 29.97 tbc (default)
+    Metadata:
+      creation_time   : 2022-10-15 22:16:22
+      handler_name    : Apple Alias Data Handler
+      timecode        : 00:00:00;00
+      encoder         : Lavc56.13.100 libvpx
+Stream mapping:
+  Stream #0:0 -> #0:0 (prores (native) -> vp8 (libvpx))
+Press [q] to stop, [?] for help
+video:11075kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.021736%
